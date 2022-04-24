@@ -1,0 +1,255 @@
+/* Tag básicas */
+*{
+    max-width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+title {
+    background-color: #ff4c68;
+    opacity: 100%;
+}
+
+body {
+    font-family:'Ubuntu', sans-serif;
+    background: linear-gradient(275deg, #FF655B, #f15390, #ff657e);
+	background-size: 600% 600%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+    overflow-x: hidden;
+}
+
+    @-webkit-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@-moz-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+
+/* Texto principal  */
+.title-app {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #Fff;
+    padding-top: 3%;
+}
+     /* PRIMEIRO CONTAINER */
+
+/* Componentes primeiro container */
+.primeiro-container {
+    padding: 1% 11%;
+    padding-bottom: 3rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.nav-item {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0 18px;
+}
+/* Botões de Download */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+/* Imagem de título */
+
+.iphone {
+    width: 50%;
+    transform: rotate(24deg);
+    position: relative;
+    bottom: 1rem;
+    left: 10rem;
+    max-width: 100%;
+}
+
+     /* SEGUNDO CONTAINER*/
+
+
+.segundo-container {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    position: static;
+
+}
+#features {
+    padding: 5% 2%;
+    position: relative;
+}
+.desc-feature {
+    text-align: center;
+    padding: 4%;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.img-feat {
+    width: 100px;
+    color: #e77566;
+    margin: 1.5rem;
+}
+.img-feat:hover {
+    color: #ff4c68;
+}
+p {
+    color: #8d8b8b;
+    font-size: 16px;
+}
+     /* TERCEIRO CONTAINER*/
+.terceiro-container {
+    background-color: #e77566;
+}
+
+/*Testemunhos de usuários*/
+
+#testimonials {
+    padding-top: 5%;
+    text-align: center;
+    color:#Fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+    transition: transform 1s ease;
+    opacity: .4s ease-out;
+}
+.testimonial-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.dog-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 25px;
+    margin-top: 30px;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 25px;
+    margin-top: 30px;
+}
+/*Sites de impressa*/
+
+#press {
+    background-color: #e77566;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.logo-imprensa {
+    width: 13%;
+    margin: 20px 20px 50px;
+}
+     /* QUARTO CONTAINER*/
+
+#pricing {
+    background-color: #Fff;
+    padding: 85px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+#seçao-final {
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5rem;
+  color: #fff;
+}
+#seçao-final{
+  display: flex;
+  align-items: center;
+}
+.container-download {
+display: flex;
+justify-content: center;
+text-align: center;
+width: 100%;
+}
+.download-button2 {
+    margin: 5% 3% 5% 0;
+}
+.titulo-secfinal {
+  font-size: 2.5rem;
+}
+.copy-logo {
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    background-color: #Fff;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+
+}
+.icons-end {
+    padding: 2%;
+    margin-bottom: 2%;
+}
+.icon-twitter{
+    padding-left: 6.5rem;
+}
+.copy-text {
+    padding-left: 6rem;
+}
+@media (max-width: 1028px) {
+
+/* ITENS PRIMEIRO CONTAINER - IPHONE E TITULO */
+.title-app{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    font-size: 3.5rem;
+}
+.iphone {
+    position: absolute;
+    left: 3rem;
+    top: 50rem;
+    transform: rotate(0deg);
+    width: 70%;
+}
+.primeiro-container{
+    height: 87rem;
+}
+/* ITENS SEGUNDO CONTAINER E FEATURES  */
+#features{
+    display: flex;
+    justify-content: center;
+}
+/* ITENS CONTAINER DEPOIMENTOS */
+.testimonial-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+/* ITENS CONTAINER PRICING */
+.row {
+    display: flex;
+    justify-content: center;
+}
+.titulo-secfinal {
+    font-size: 1.7rem;
+}
+}
