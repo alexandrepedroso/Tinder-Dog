@@ -1,4 +1,4 @@
-<div align="start">
+<div align="start" justifycontent=center>
  <img src="https://user-images.githubusercontent.com/101142042/195425865-9187ef87-2c83-4b39-a677-7c5bac349bf9.png" width=100px />Tindog 
 </div>
 
